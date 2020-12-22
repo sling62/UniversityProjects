@@ -1,0 +1,18 @@
+﻿  Bishop.cpp
+  Collision.cpp
+  Game.cpp
+H:\Downloads\cw2-submission\Game.cpp(44,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+H:\Downloads\cw2-submission\Game.cpp(135,19): warning C4018:  '>': signed/unsigned mismatch
+H:\Downloads\cw2-submission\Game.cpp(228,19): warning C4018:  '>': signed/unsigned mismatch
+  Piece.cpp
+  Queen.cpp
+  Rook.cpp
+  Generating Code...
+H:\Downloads\cw2-submission\Game.cpp(233,19): warning C4018:  '<': signed/unsigned mismatch
+H:\Downloads\cw2-submission\Rook.cpp(113): warning C4715:  'Rook::hasCollided': not all control paths return a value
+H:\Downloads\cw2-submission\Queen.cpp(110): warning C4715:  'Queen::hasCollided': not all control paths return a value
+H:\Downloads\cw2-submission\Piece.cpp(112): warning C4715:  'Piece::operator==': not all control paths return a value
+H:\Downloads\cw2-submission\Piece.cpp(124): warning C4715:  'Piece::operator!=': not all control paths return a value
+H:\Downloads\cw2-submission\Piece.cpp(145): warning C4715:  'operator<<': not all control paths return a value
+H:\Downloads\cw2-submission\Bishop.cpp(122): warning C4715:  'Bishop::hasCollided': not all control paths return a value
+  pfg-2.vcxproj -> H:\Downloads\cw2-submission\Debug\pfg-2.exe

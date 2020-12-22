@@ -1,0 +1,432 @@
+
+	main {
+    padding-left: 0px; /*removing the need for space left and right of main content,setting it to 0px*/
+	padding-right: 0px;
+	}
+  
+	body{
+	 background-color:gray;/*setting the background-color of the entire page/body to gray*/
+	 min-width:600px;/*setting the minimum width of the page to 600px*/
+	}
+  
+	.side-nav{
+	background-color:orange;/*setting the navigation bar color to orange*/
+	}
+	
+	.row .col.m12 {
+    width: 100%;/*setting the width of each section to always be at 100% */
+	}
+	
+	#getStartedBtn{
+	padding-left:42%;/*aligning the get stsrted button to be in the centered by adding 42% space from the left */
+	padding-bottom:100px;/*adding space of 100px below the button*/
+	}
+	
+	
+	#welcomeTitle{
+	font-size: 80px; /*setting the font-size of the title of home page to 80px*/
+    padding:10%;
+    text-align: center;/*align text to be centred*/
+    font-weight: 100;/*setting the text thickness to be 100(thin)*/
+	}
+	
+	#HelloTitle{
+	font-size: 70px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 500;
+	color:orange;
+	}
+	
+	#IntroductionTxt{
+	font-size: 35px;
+    padding-top: 10px;
+    font-weight: 100;
+	color:orange;/*changing the color of the text to orange*/
+	padding-bottom:100px;
+	}
+	
+	p{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	li{
+		color:white;
+		
+	}
+	
+	nav .nav-wrapper {
+		margin-left:-10px; /*making the nav bar bigger width wise by 10px*/
+		margin-right:-10px;
+	}
+	
+	.btn{
+		background-color:transparent; /*changing all buttons color to transparent*/
+		color:black;
+	}
+	
+	
+	
+	/*step/number images on index page styling*/
+	#Step1Text{
+	font-size:40px;
+    padding-top: 30px;
+	padding-bottom:120px;
+	text-align:center;
+    font-weight: 800;
+	padding-right:100px;
+	padding-left:100px;
+	}
+	
+	#Step2Text{
+	font-size: 40px;
+    padding-top: 60px;
+	padding-bottom:120px;
+	text-align:center;
+    font-weight: 800;
+	padding-right:100px;
+	padding-left:100px;
+	}
+	
+	#Step3Text{
+	font-size: 40px;
+    padding-top: 60px;
+	padding-bottom:76px;
+	text-align:center;
+    font-weight: 800;
+	padding-right:100px;
+	padding-left:100px;
+	}
+	
+	/*block and Inline tags section/heading*/
+	#BlockLevelTagsTitle,#InlineTagTitle{
+		
+	font-size: 80px;
+    padding-top: 200px;
+	color:white;
+	text-align:center;
+    font-weight: 100;
+	}
+	
+	/*block and Inline tag brief description text */
+	#blocktagTitletext,#InlineTagTitleText{
+	font-size: 25px;
+    padding-bottom: 200px;
+	padding-left:10%;
+	padding-right:10%;
+	color:white;
+	text-align:center;
+    font-weight: 400;
+	
+	}
+	
+	.tooltip{
+		padding-left:43%;
+		padding-bottom:40px;
+	}
+	
+	/*step/number images on index page styling*/
+	#numberImage1{
+		padding-left:40%;
+		padding-top:60px;
+	}
+	
+	#numberImage2{
+		padding-left:43%;
+		padding-top:80px;
+	}
+	
+	#numberImage3{
+		padding-left:43%;
+		padding-top:80px;
+	}
+	
+	/*all the examples of headings styling*/
+	.HeadingExample{
+		padding-left:50px;
+		text-align:center;
+		font-weight:400;
+	}
+	
+	/*different section titles*/
+	#HeadingsTitle,#ParagraphBreaksRulesTitle,#ListsTitle,#LogicalTagsTitle,#html5FlowElementsTitle,#html5PhrasingElementsTitle{
+	font-weight:600;
+	font-size:80px;
+	padding-left:20px;
+	}
+	
+	#PhysicalTagsTitle{
+	font-weight:600;
+	font-size:80px;
+	padding-left:20px;
+	padding-top:20px;
+	color:white;
+	}
+	
+	#LogicalandPhysicalTagsIntroTitle{
+	font-weight:600;
+	font-size:70px;
+	padding-left:20px;
+	}
+	
+	/*heading section*/
+	#Headings{
+	padding-bottom:20px;
+	}
+	
+	/*different section descriptions*/
+	.HeadingstagTitletext,.ParagraphBreaksRulesText,.ListsTitleTagsText,.LogicalTagsTitleText,.html5FlowElementsTitleText,.html5PhrasingElementsTitleText{
+	font-size:20px;
+	padding-bottom:20px;
+	}
+	
+	.ParagraphBreaksRulesText,.LogicalTagsTitleText,.html5FlowElementsTitleText{
+	color:#26a69a;/*setting the text color to hex color code #26a69a */
+	}
+	
+	#ParagraphBreaksRulesTitle,#LogicalTagsTitle,#html5FlowElementsTitle{
+	color:white;
+	}
+	
+	
+	
+	#PhysicalTagsTitleText{
+	font-size:20px;
+	padding-bottom:10px;
+	color:#26a69a;
+	}
+	
+	/*paragraphs,breaks and rules section*/
+	#ParagraphsBreaksRules{
+	padding-bottom:20px;
+	}
+	
+	.paragraphExample,.LineBreakExample{
+	font-weight:100;
+	font-size:20px;
+	color: white;
+	}
+	
+	/*collapsible(show HTML code) part*/
+	.collapsible-header{
+	background-color:#212121;
+	text-align:center;
+	}
+	/*collapsible content part*/
+	.collapsible-body{
+	background-color:#212121;
+	}
+	
+	
+	.ListTextExample{
+	color:black;
+	font-weight:500;
+	font-size:20px;
+	}
+	
+	.ListTagTitle{
+	font-weight:800;
+	text-align:center;
+	}
+	
+	/*ul example*/
+	.ListTagExample{
+	font-weight:500;
+	font-size:18px;
+	color:black;
+	list-style-type:disc;/*ul bullet points did not show up therefore manual disc styling was added*/
+	}
+	
+	/*ol and dl example*/
+	.ListTagExample2{
+	font-weight:500;
+	font-size:18px;
+	color:black;
+	}
+	
+	.LogicalandPhysicalTagsth{
+	font-weight:600;
+	font-size:40px;
+	text-align:center;
+	}
+	
+	/*ul bullet points*/
+	#ulbullet{
+	padding-left:20px;
+	}
+	
+	
+	.TableContent{
+	font-weight:400;
+	font-size:18px;
+	}
+	
+	/*text in tab content/description*/
+	.ModelText{
+	font-size:50px;
+	padding-left:20px;
+	color:white;
+	}
+	
+	/*tab styling*/
+	.tabs .tab a:hover{
+	color:orange;
+	}
+	
+	.tabs .tab a{
+	color:white;
+	text-transform:lowercase;
+	}
+	
+	.tabs .indicator{
+	background-color:orange;
+	}
+	
+	.LogicalTagExampleText{
+	color:white;
+	}
+	
+	.row .col {
+	background-color:#212121;
+	}
+	
+	.LogicalTagDescription,.PhysicalTagDescription,.FlowElementDescription{
+	font-size:18px;
+	color:orange
+	}
+	
+	#space0{
+	padding-top:10px;
+	}
+	
+	#space1{
+	padding-bottom:10px;
+	}
+	
+	#space2{
+	padding-top:30px;
+	}
+	
+	#BigTagExample{
+	font-size:20px;
+	}
+	
+	/*dropdown-content styling on nav bar*/
+	.dropdown-content li>a {
+	color:black
+	}
+	
+	.summaryTitle{
+	font-weight:600;
+	padding-left:50px;
+	padding-top:160px;
+	font-size:60px;
+	color:white;
+	padding-bottom:0px;
+	}
+	
+	.summaryText{
+	font-weight:400;
+	padding-top:0px;
+	padding-left:50px;
+	color:white;
+	padding-right:60px;
+	padding-bottom:160px;
+	font-size:20px;
+	}
+	/*summary description*/
+	#summary{
+	background-color:#1d1d1d;
+	}
+	
+	#QuizReadyTitle{
+	text-align:center;
+	padding-top:200px;
+	font-size:100px;
+	}
+	
+	#space3{
+	padding-bottom:200px;
+	padding-left:40%;
+	padding-top:100px;
+	}
+	
+	/*quiz content section*/
+	#myDIV{
+	display:none;/*quiz content is hidden and reveealed with button click using js*/
+	background-color: white;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:20px;
+	}
+	
+	
+	#space4{
+	padding-top:150px;
+	}
+	
+	#quizTitle{
+	font-size:60px;
+	text-align:center;
+	}
+	
+	#flowElementsLayoutimg{	
+	margin-left:10%;
+	padding-right:10%;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+	
+	/*physical and logical tags section*/
+	#PhysicalTags,#LogicalTags{
+	padding-top:100px;
+	}
+	
+	#PhysicalTags{
+	padding-bottom:100px;
+	}
+	
+	#html5PhrasingElements{
+	padding-top:100px;
+	padding-bottom:100px;
+	}
+	
+	#flowElementsLayoutimgBorder {
+    border-radius: 25px;
+    border: 2px;
+	padding-left:100px;
+	padding-bottom:30px;
+	background: white;
+    padding: 20px; 
+	margin-top:60px;
+	margin-bottom:60px;
+	margin-left:40px;
+	margin-right:40px;
+	}
+
+	#flowElementsLayout1img, #flowElementsLayoutimgBorder{
+    max-width: 100%;
+    height: auto;
+	width: auto;
+	}
+	/*logical tag section image*/
+	#importantdocimg{
+	float:right;
+	}
+	
+	/*physical tag section image*/
+	#textdisplayimg{
+	float:right;
+	padding-right:60px;
+	}
+
+	/*hyperlink styling in html5 phrasing elements section*/
+	#LogicalTagsHyperlink{
+	color:black;
+	font-weight:600;
+	}
+
+
+	
+	

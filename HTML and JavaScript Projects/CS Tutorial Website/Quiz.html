@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--Quiz page-->
+<head>
+	<meta charset="utf-8"/>
+	<title>NCL CSC1026 Block and Inline tags tutorial</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>  
+	<script type="text/javascript" src="CSC1026Tutorial.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CSC1026Tutorial.css"/>
+</head>
+
+<body>
+
+<div class="container">
+<div class="navbar-fixed">
+<nav class = "z-depth-0 container">
+    <div class="nav-wrapper orange col s12">
+	<img src="NCLlogo.png" class="brand-logo" width="160" height="60" alt="NclLogo">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	  
+	  
+      <ul class="right hide-on-med-and-down">
+	  
+	  <li class="bold"><a href="index.html" class="waves-effect waves-teal">Home</a></li>
+	  <li class="bold"><a href="BlockTags.html" class="waves-effect waves-teal">Block Tags</a></li>
+	  <li class="bold"><a href="InlineTags.html" class="waves-effect waves-teal">Inline Tags</a></li>	 
+		<li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+
+      </ul>
+	  
+	  
+	  <ul class="side-nav" id="mobile-demo">
+       
+	   <li class="bold"><a href="#index.html" class="waves-effect waves-teal">Home</a></li>
+	   
+		<li class="bold"><a href="BlockTags.html" class="waves-effect waves-teal">Block Tags</a></li>
+	  <li class="bold"><a href="InlineTags.html" class="waves-effect waves-teal">Inline tags</a></li>
+	  
+         <li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+      </ul>
+	  
+    </div>
+  </nav>
+  </div>
+</div>
+ 
+
+<main>
+        <div class="container">
+          <div class="row">
+		  
+		 <section class="col s12 m12 orange">
+	
+		<div id = "Quiz">
+		<h2 id = "QuizReadyTitle"><em><b>Ready to take the Quiz?</b></em></h2> 
+         </div>
+			
+		<div id = "space3"> 
+		<a class="waves-effect waves-light btn" onclick="myFunction()">Let's do it!</a>
+		</div>
+			
+		
+		<div id="myDIV" style="display: none;" class="col s12 m12 orange">
+				
+				<div id = "quizQuestions"> 
+				<h4 id = "quizTitle"><b>Block and Inline tags quiz</b></h4>
+				</div>
+				
+			<form action="loljljlj">
+	
+				<p>Which is the least important heading out of these options?</p>
+				
+				<label>Browser Select</label>
+				<select class="browser-default">
+				<option value="" disabled selected>Choose your option</option>
+				<option value="1">h3</option>
+				<option value="2">h1</option>
+				<option value="4">h5</option>
+				<option value="5">h7</option>
+				<option value="6">h6</option>
+				</select>
+				
+				<p>Which out of these opotions produces a bullet point list?</p>
+				
+				<p>
+				<input name="group1" type="radio" id="ulrb" />
+				<label for="ulrb">a Unordered List</label>
+				</p>
+				<p>
+				<input name="group1" type="radio" id="olrb" />
+				<label for="olrb">a Ordered List</label>
+				</p>
+				<p>
+				<input name="group1" type="radio" id="dlrb"  />
+				<label for="dlrb">a Definition list</label>
+				</p>
+				
+				
+				<p>Which are Logical tags? select one or more of the following boxes</p>
+  
+				<p>
+				<input type="checkbox" class="filled-in" id= "emcb" />
+				<label for = "emcb">em</label>
+				</p>
+	
+				<p>
+				<input type="checkbox" class="filled-in" id= "smallcb"/>
+				<label for = "smallcb">small</label>
+				</p>
+				
+				<p>
+				<input type="checkbox" class="filled-in" id= "supcb" />
+				<label for = "supcb">sup</label>
+				</p>
+	 
+				<p>
+				<input type="checkbox" class="filled-in" id= "citecb" />
+				<label for = "citecb" >cite</label>
+				</p>
+	  
+				<p>
+				<input type="checkbox" class="filled-in" id= "subcb" />
+				<label for = "subcb">sub</label>
+				</p>
+				
+				
+				<p>Which are Physical tags? select one or more of the following boxes</p>
+  
+				<p>
+				<input type="checkbox" class="filled-in" id= "abbrcb"/>
+				<label for = "abbrcb">abbr</label>
+				</p>
+	
+				<p>
+				<input type="checkbox" class="filled-in" id= "icb"/>
+				<label for = "icb">i</label>
+				</p>
+				
+				<p>
+				<input type="checkbox" class="filled-in" id= "bigcb" />
+				<label for = "bigcb">big</label>
+				</p>
+	 
+				<p>
+				<input type="checkbox" class="filled-in" id= "strongcb" />
+				<label for = "strongcb">strong</label>
+				</p>
+	  
+				<p>
+				<input type="checkbox" class="filled-in"  id= "acb"/>
+				<label for = "acb">a</label>
+				</p>
+				
+				
+				<p>Which is better to use in order to seperate text?</p>
+				
+				<label>Browser Select</label>
+				<select class="browser-default">
+				<option value="" disabled selected>Choose your option</option>
+				<option value="1">hr tag</option>
+				<option value="2">br tag</option>
+				<option value="3">another p tag</option>
+				</select>
+				
+				<p>Where is a &lt;article&gt; tag usually placed in a HTML5 document?</p>
+				
+				<p>
+				<input name="group1" type="radio" id="headerrb" />
+				<label for="headerrb">In a header tag</label>
+				</p>
+				<p>
+				<input name="group1" type="radio" id="sectionrb" />
+				<label for="sectionrb">In a section tag</label>
+				</p>
+				<p>
+				<input name="group1" type="radio" id="asiderb"  />
+				<label for="asiderb">In a aside tag</label>
+				</p>
+				<p>
+				<input name="group1" type="radio" id="navrb"  />
+				<label for="navrb">In a nav tag</label>
+				</p>
+				
+				
+				<p>Which types of tags are included in HTML5 Phrasing elements?</p>
+				
+				<label>Browser Select</label>
+				<select class="browser-default">
+				<option value="" disabled selected>Choose your option</option>
+				<option value="1">Physical</option>
+				<option value="2">Logical</option>
+				<option value="3">Heading</option>
+				<option value="4">Paragraph</option>
+				<option value="5">Lists</option>
+				</select>
+				
+				<p>What type of Inline tags is used in order to provide semantic meaning to HTML code?</p>
+		
+				<div class="input-field col s6">
+				<input id="first_name" type="text" class="validate">
+				<label>Answer</label>
+				</div>
+				
+				
+				
+				<p id = "space4"></p>
+				 <div class="center-btn">
+				<a class="waves-effect waves-light btn" onclick="displayMessage();"><i class="material-icons right">send</i>SUBMIT</a>
+				</div>
+  
+			</form>
+				
+				
+				
+		
+		</div>
+		
+		</section>
+
+		  <footer class="page-footer grey darken-4">
+			<div class="container grey darken-4">
+				<div class="row">
+				<div class="col l6 s12 grey darken-4">
+                <h5 class="white-text">CSC1026: Website Design and Construction</h5>
+                <p class="grey-text text-lighten-4">Samantha Ling <br/> Student ID: 160720604</p>
+				</div>
+				<div class="col l4 offset-l2 s12 grey darken-4">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-4" href="https://developer.mozilla.org/en-US/">Monzilla Developer Tools</a></li>
+                  <li><a class="grey-text text-lighten-4" href="http://materializecss.com/">Materialize</a></li>
+                  <li><a class="grey-text text-lighten-4" href="https://www.w3schools.com/">W3schools</a></li>
+                 
+                </ul>
+				</div>
+				</div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4" href="#!">Newcastle University</a>
+            </div>
+          </div>
+        </footer>
+		  
+		  
+		  </div>
+		 </div>
+		 
+	</main>
+
+	
+</body>
+
+</html>

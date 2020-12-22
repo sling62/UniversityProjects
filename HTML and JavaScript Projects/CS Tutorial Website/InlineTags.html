@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--Inline tags page-->
+<head>
+	<meta charset="utf-8"/>
+	<title>NCL CSC1026 Block and Inline tags tutorial</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>  
+	<script type="text/javascript" src="CSC1026Tutorial.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CSC1026Tutorial.css"/>
+</head>
+
+<body>
+
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#LogicalandPhysicalTagsIntro">Introduction</a></li>
+  <li><a href="#LogicalTags">Logical tag examples</a></li>
+  <li><a href="#PhysicalTags">Physical tag examples</a></li>
+  <li><a href="#html5PhrasingElements">HTML5:Phrasing Elements</a></li>
+</ul>
+
+<div class="container">
+<div class="navbar-fixed">
+  <nav class = "z-depth-0 container">
+    <div class="nav-wrapper orange col s12">
+	<img src="NCLlogo.png" class="brand-logo" width="160" height="60" alt="NclLogo">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	 
+	  
+      <ul class="right hide-on-med-and-down">
+	  
+	  <li class="bold"><a href="index.html" class="waves-effect waves-teal">Home</a></li>
+	  
+	  <li><a href="BlockTags.html" class="waves-effect waves-teal">Block Tags</a></li>
+	  
+		<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Inline Tags<i class="material-icons right">arrow_drop_down</i></a></li>
+
+	 
+		<li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+
+      </ul>
+	  
+	  
+	  <ul class="side-nav" id="mobile-demo">
+       
+	   <li class="bold"><a href="index.html" class="waves-effect waves-teal">Home</a></li>
+	   
+	   <li><a href="BlockTags.html" class="waves-effect waves-teal">Block Tags</a></li>
+	   
+		  <li class="bold"><a href="#InlineTags" class="waves-effect waves-teal">Inline tags</a></li>
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header waves-effect waves-teal">Sections<i class="mdi-navigation-arrow-drop-down"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#LogicalandPhysicalTagsIntro">Introduction</a></li>
+                <li><a href="#LogicalTags">Logical tag examples</a></li>
+                <li><a href="#PhysicalTags">Physical tag examples</a></li>
+				<li><a href="#html5PhrasingElements">HTML5:Phrasing Elements</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+
+         <li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  </div>
+	</div>
+
+<main>
+        <div class="container">
+          <div class="row">
+		  
+		  <section class="col s12 m12 grey darken-4 ">
+			<div id = "InlineTags">
+              <h2 id="InlineTagTitle">Inline Tags</h2>
+              <p id = "InlineTagTitleText">Inline Tags are tags which are nested within a Block level tag.There are two types of Inline tags; Logical and Physical. An inline tag does not start on a new line and only takes up as much width as necessary.
+			  Examples of Inline tags are: &lt;span&gt;, &lt;img&gt; and &lt;a&gt;.</p>
+            </div>
+			</section>
+			
+			<section class="col s13 m13 orange  ">
+			<div id = "LogicalandPhysicalTagsIntro">
+              <h2 id = "LogicalandPhysicalTagsIntroTitle">Introduction to Logical and Physical tags
+			  (what is the difference?)</h2> 
+			   <table>
+			<thead>
+			<tr>
+              <th><p class= "LogicalandPhysicalTagsth">Logical tags</p></th>
+              <th><p class= "LogicalandPhysicalTagsth">Physical tags</p></th>
+			</tr>
+			</thead>
+
+			<tbody>
+			<tr>
+				<td><p class = "TableContent">Logical tags represent the structure and meaning of a document,
+				 with only suggested renderings for their appearance which could vary depending on different browser's system configurations.</p></td>
+				<td><p class = "TableContent">The physical tags represent the visual effects on specific words in a document that are intended to only be used when suitable like highlighting a keyword, 
+				and do not have any reason to it's semantic meaning.</p></td>
+			</tr>
+			<tr>
+				<td><p class = "TableContent">The original implementation of HTML contained almost entirely of logical tags,
+			    The reason for this was that HTML was viewed as more of a structural language rather than a visual language. </p></td>
+				<td><p class = "TableContent">As HTML was developed by browser-makers like Netscape and Microsoft, a large number of physical tags were added, with very little development of the logical tag set.</p></td>
+    
+			</tr>
+
+			</tbody>
+			</table>
+	  
+			<p class = "TableContent"><b>The HTML 4.0 standard and now HTML 5.0, attempts to remedy the over-use of Physical tags by introducing some new logical tags and declaring some of the physical tags and attributes as "deprecated" in favor of using CSS stylesheets instead.</b></p>
+            </div>
+            </section>
+			
+		<section class="col s12 m12 grey darken-4">
+		<div id = "LogicalTags">
+        <h2 id = "LogicalTagsTitle">Logical tags</h2> 
+		<img src="importantdoc.png" id = "importantdocimg" width="260" height="250" alt="importantdoc" title="importantdoc" >
+		<p class = "LogicalTagsTitleText"> Logical tags are designed to describe (to the browser) the enclosed text's meaning or semantic meaning. 
+		By placing text in between the tags below you are telling the browser that the text has some greater importance.</p>
+		<p class = "LogicalTagsTitleText">For instance by default all browsers make the text appear italic when in between the &lt;em&gt; and &lt;/em&gt; tags, but the point to take away from this is that the &lt;em&gt; tag implies the importance of that text. 
+		This is of a great importance to search engines like google which look for these tags to help figure out what the page is about.</p>
+        </div>
+			 
+			 
+		<div class="row">
+			<div class="col s12">
+			<ul class="tabs">
+				<li class="tab col s2 grey darken-4"><a href="#em">&lt;em&gt;</a></li>
+				<li class="tab col s2 grey darken-4"><a href="#strong">&lt;strong&gt;</a></li>
+				<li class="tab col s2 grey darken-4"><a href="#cite">&lt;cite&gt;</a></li>
+				<li class="tab col s2 grey darken-4"><a href="#code">&lt;code&gt;</a></li>
+				<li class="tab col s2 grey darken-4"><a href="#abbr">&lt;abbr&gt; and &lt;acronym&gt; </a></li>
+			</ul>
+		</div>
+		
+		<div class = "LogicalTagExampleText">
+		<div id="em" class="col s12 "><em class = "ModelText">&lt;em&gt;Empharsise Text&lt;/em&gt;</em> 
+		<p class = "LogicalTagDescription">The &lt;em&gt; tag mainly stresses emphasis of its contents, while the &lt;i&gt; tag represents text that is like normal text but is more specific, such as the name of a movie or book, a foreign word, or when the text refers to the definition of a word.</p>
+		<p class = "LogicalTagDescription">An example for &lt;em&gt; could be: "Just <em>do</em> it already!", or "We <em>had</em> to do something about it".</p><p class = "LogicalTagDescription"> A person or software reading the text would pronounce the words in italics with an emphasis. <p>
+		</div>
+		</div>
+		
+		<div class = "LogicalTagExampleText">
+		<div id="strong" class="col s12"><b class = "ModelText">&lt;strong&gt;Make text strong&lt;/strong&gt;</b>
+		<p class = "LogicalTagDescription">Similar to the &lt;em&gt; tag, &lt;Strong&gt; is normally percieved as just conveying a stronger emphasis, in HTML5, the tag is described as representing "strong importance for its contents".
+		There is a big difference between emphasis and importance. </p><p class = "LogicalTagDescription">While Emphasis is used to change the meaning of a sentence ("I <em>love</em> carrots" vs "I love <em>carrots</em>"),
+		Strong is used to indicate bits of a sentence added importance (e.g. "<b>Warning!</b> This is <b>very dangerous</b>").</p> 
+		<p class = "LogicalTagDescription">Both Strong and Emphasis can be nested to increase the relative degree of importance or stress emphasis, respectively.</p>
+		</div>
+		</div>
+		
+		<div class = "LogicalTagExampleText">
+		<div id="cite" class="col s12"><cite class = "ModelText">&lt;cite&gt;Cite it right&lt;/cite&gt;</cite>
+		<p class = "LogicalTagDescription">Unlike the &lt;i&gt; tag, the &lt;cite&gt; tag specifically is used as a reference to a creative work(e.g. A painting).
+		the tag requires that when you assign the URL or title of that work. This could be in an abbreviated form following the correct citation format.
+		An example is: </p><p class = "LogicalTagDescription">&lt;p&gt;&lt;cite&gt;<cite>The Scream</cite>&lt;/cite&gt; by Edward Munch. Painted in 1893.&lt;/p&gt;</p> 
+		</div>
+		</div>
+		
+		<div class = "LogicalTagExampleText">
+		<div id="code" class="col s12"><code class= "ModelText" >&lt;code&gt;Code it&lt;/code&gt;</code><p class = "LogicalTagDescription">The &lt;code&gt; tag is used in a HTML document to represent computer code. By default, it is displayed in a browser as monospace font.
+		<p class = "LogicalTagDescription">For example declaring a Javascript variable in HTML:</p>
+		<p class = "LogicalTagDescription"><code>&lt;code&gt; var x = 0; &lt;/code&gt;</code></p>
+		<p class = "LogicalTagDescription">
+		Tip: This tag is not deprecated, but it is possible to achieve better effect with CSS.
+		</p>
+		</div>
+		</div>
+	
+		<div class = "LogicalTagExampleText">
+		<div id="abbr" class="col s12"><abbr class = "ModelText">&lt;abbr&gt;WWW.&lt;/abbr&gt;</abbr> 
+		<p class = "LogicalTagDescription">
+		The HTML Acronym Element (&lt;acronym&gt;) as the name sugguests allows clearly to indicate a sequence of characters that make up an acronym for a word. This element has been removed in HTML5. So use &lt;abbr&gt; element.
+		The HTML &lt;abbr&gt; element represents an abbreviation of a word and gives the option to supply a description for it. If included, the title attribute must contain this full description and nothing else.
+		</p>
+		<p class = "LogicalTagDescription">An example of using an abbreviation tag in HTML: &lt;abbr title = "History"&gt; <abbr title="History">Hist.</abbr>&lt;/abbr&gt;</p>
+		</div>
+		</div>
+		
+		</div>
+			 
+		</section>
+		
+		
+		<section class="col s12 m12 grey darken-4 ">
+			<div id = "PhysicalTags">
+			<hr/>
+              <h2 id = "PhysicalTagsTitle">Physical tags</h2> 
+			  <img src="textdisplay.png" id = "textdisplayimg" width="260" height="160" alt="TextStyling" title="TextStyling">
+			  <p id = "PhysicalTagsTitleText"> 
+			 Physical tags on the other hand provide specific instructions on how to display the text they enclose. Physical Inline tags just provide visual feedback, however many of these tags are now deprecated, so it is best to use logical tags.
+			</p>
+			  
+			<div class="row">
+				<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s3 grey darken-4"><a href="#b">&lt;b&gt;</a></li>
+					<li class="tab col s3 grey darken-4"><a href="#i">&lt;i&gt;</a></li>
+					<li class="tab col s3 grey darken-4"><a href="#big">&lt;big&gt;</a></li>
+					<li class="tab col s3 grey darken-4"><a href="#small">&lt;small&gt;</a></li>
+					<li class="tab col s3 grey darken-4"><a href="#sub">&lt;sub&gt; </a></li>
+					<li class="tab col s3 grey darken-4"><a href="#sup">&lt;sup&gt; </a></li>
+					<li class="tab col s3 grey darken-4"><a href="#u">&lt;u&gt; </a></li>
+					<li class="tab col s3 grey darken-4"><a href="#s">&lt;s&gt; </a></li>
+				</ul>
+ 
+		<div id="b" class="col s12"><b class = "ModelText">&lt;b&gt;Bold Text&lt;/b&gt;</b> 
+		<p class = "PhysicalTagDescription">
+		In HTML the &lt;b&gt; tag is used to indicate a piece of text of which is different visually from normal text, without showing any particular importance or relevance.It is normally rendered in a boldface font.</p>
+		<p class = "PhysicalTagDescription">Examples of which the &lt;b&gt; tag is used for are: keywords, product names in a article, or other pieces of text which the normal presentation would be in a bold font.</p>
+		<p class = "PhysicalTagDescription">For Example: &lt;p&gt;this text has been bolded to &lt;b&gt;<b>stand out</b>&lt;/b&gt; visually from the rest of the text&lt;/p&gt;</p>
+		<p class = "PhysicalTagDescription">Tip: If the text has no semantic meaning at all on using the &lt;b&gt; tag, then the css property font-weight with bold value would be a more suitable alternative for making the text bold.</p>
+		<p class = "PhysicalTagDescription">For Example: &lt;p style="font-weight:bold;"&gt;<b>Yay, I'm Bold!</b>&lt;/p&gt;</p>
+		</div>
+		
+		<div id="i" class="col s12"><i class = "ModelText">&lt;i&gt;Italicize Text&lt;/i&gt;</i>
+		<p  class = "PhysicalTagDescription">
+		In HTML the &lt;i&gt; tag is used to indicate a piece of text that has a more specific meaning than to the other normal text.Examples of this are: technical terms, foreign language phrases, or fictional character thoughts. It is normally presented in italic font type.</p> 
+		<p  class = "PhysicalTagDescription">An example of using this tag: &lt;p&gt; The latin word &lt;i class = "latin"&gt;<i class="latin">aurum</i> &lt;/i&gt; translates
+		to gold in English.&lt;/p&gt;</p>
+		<p  class = "PhysicalTagDescription">Tip:you can use CSS styling in order to produce italic font using "font-style: italic;"</p>
+		</div>
+		
+		
+		<div id="big" class="col s12"><h2 class = "ModelText">&lt;big&gt;Make Text Bigger&lt;/big&gt;</h2>
+		<p  class = "PhysicalTagDescription">
+		In HTML Big tag (&lt;big&gt;) is used to make the text font size one size bigger (ie. from small to medium, or from large to x-large) until it reaches the browser's maximum font size.</p>
+		<p  class = "PhysicalTagDescription">For Example in HTML:
+		&lt;p&gt;This is a normal sentence. &lt;big&gt;</p><p id = "BigTagExample" class = "PhysicalTagDescription">This whole 
+		sentence is in bigger letters.</p><p  class = "PhysicalTagDescription">&lt;/big&gt;&lt;/p&gt;</p>
+		<p  class = "PhysicalTagDescription">An alternative is in CSS:&lt;/p&gt;This is a normal sentence in a paragraph. &lt;span style="font-size:1.2em"&gt; <span style="font-size:1.2em">This part of the
+		sentence is in bigger letters.</span>&lt;/span&gt;&lt;/p&gt; 
+		</p>
+		</div>
+		
+		<div id="small" class="col s12"><small class= "ModelText">&lt;small&gt;<small>Make Text small</small>&lt;/small&gt;</small>
+		<p  class = "PhysicalTagDescription">
+		In HTML the small tag (&lt;small&gt;) makes the text font size one size smaller (ie. from large to medium, or from small to x-small) until it reaches the browser's minimum font size.
+		In HTML5, this tag was given a new purpose in order to represent side-comments and small print(like copyright and legal text) so that it does not need to be styled to be this way.</p>
+		<p  class = "PhysicalTagDescription">For Example in HTML:&lt;p&gt; This is a normal sentence. &lt;small&gt;<small>This 
+		sentence is in smaller letters.</small>&lt;/small&gt;&lt;/p&gt; 
+		</p>
+		<p  class = "PhysicalTagDescription">Alternative in CSS:&lt;/p&gt; 
+		This is a normal sentence. &lt;span style="font-size:0.8em"&gt; <span style="font-size:0.8em">This
+		sentence is in smaller letters.</span>&lt;/span&gt;&lt;/p&gt; 
+		</p>
+		</div>
+	
+		<div id="sub" class="col s12">
+		<p id = "space0"></p>
+		<sub class = "ModelText" id = "subScriptExample">&lt;sub&gt;<sub>written in subScript</sub>&lt;/sub&gt;</sub>
+		<p id = "space1"></p>
+		<p  class = "PhysicalTagDescription">In HTML the &lt;sub&gt; tag indicates a piece of text that should be presented differently, for typographic reasons lower and usually smaller, than other normal pieces of text.
+		This tag is mainly only used for typographical reasons; like in mathematical and scientific formulas, changing the position of the text so that it accurately represents its meaning.</p>
+		<p  class = "PhysicalTagDescription">An example of this: &lt;p&gt;The chemical formula of water: H&lt;sub&gt;<sub>2</sub>&lt;/sub&gt;O&lt;/p&gt;</p> 
+		<p  class = "PhysicalTagDescription">Tip:This tag main purpose is not for appearance. If this type of styling is wanted to be used for appearance then CSS should be used ie. the vertical-align property with the sub value will achieve the same effect.</p>
+		</div>
+	
+		<div id="sup" class="col s12">
+		<p id = "space2"></p>
+		<sup class = "ModelText" id = "superScriptExample">&lt;sup&gt;<sup>superScripted!</sup>&lt;/sub&gt;</sup>
+		<p  class = "PhysicalTagDescription">In HTML the &lt;sup&gt; tag similar to the &lt;subScript&gt; tag indicates a piece of text that should be presented differently for typographic reasons, however higher and smaller instead of lower and smaller, than normal text.
+		This tag is mainly only used for typographical reasons; like in mathematical and scientific formulas, changing the position of the text so that it accurately represents its meaning.</p>
+		<p  class = "PhysicalTagDescription">An example of this: &lt;p&gt;x&lt;sup&gt;<sup>2</sup>&lt;/sup&gt; = 25 &lt;/p&gt;</p>
+		<p  class = "PhysicalTagDescription">Tip:This tag main purpose is not for appearance. If this type of styling is wanted to be used for appearance then CSS should be used ie. the vertical-align property with the sub value will achieve the same effect.</p>
+		</div>
+
+		<div id="u" class="col s12">
+		<u class = "ModelText">&lt;u&gt;<u>Importent to underline titles</u>&lt;/u&gt;</u>
+		<p  class = "PhysicalTagDescription">In HTML the &lt;u&gt; tag creates text which is underlined(a line under the base of the text).</p>
+		<p  class = "PhysicalTagDescription">An example of this: &lt;p&gt;&lt;u&gt;<u>Important:</u>&lt;/u&gt; see 
+		&lt;u&gt;<u>Rules and Regulations</u>&lt;/u&gt; section for details&lt;/p&gt;
+		</p>
+		<p  class = "PhysicalTagDescription">Like majority of physical tags, the &lt;u&gt; tag was deprecated in HTML 4 and XHTML 1, but came back in HTML5 with more semantic meaning.</p>
+		<p  class = "PhysicalTagDescription">Tip:If you want to underline text for appearance then you should use a &lt;span&gt; tag, or another semantically appropriate element and style it with the CSS text-decoration property, with the underline value.</p>
+		<p  class = "PhysicalTagDescription">Tip: Avoid using the &lt;u&gt; element where it could be confused for a hyperlink.</p>
+		</div>
+	
+		<div id="s" class="col s12">
+		<s	class = "ModelText">&lt;s&gt;<s>cross out unassecasry words</s>&lt;/s&gt;</s>
+		<p  class = "PhysicalTagDescription">In HTML the &lt;s&gt; tag creates text which have a strikethrough, or a line through it.The the &lt;s&gt; tag is mainly used to indicate text that is no longer relevant or no longer accurate. </p>
+		<p  class = "PhysicalTagDescription">Tip: The &lt;s&gt; tag is not appropriate when indicating document edits; for that, use the &lt;del&gt; and  &lt;ins&gt; tags, as appropriate.</p>
+		<p  class = "PhysicalTagDescription">HTML Example:&lt;p&gt;&lt;s&gt;<s>Price Before: £14</s>&lt;/s&gt; Price After: £10 &lt;/p&gt;</p>
+		<p  class = "PhysicalTagDescription">CSS Example:&lt;p&gt;&lt;span style="text-decoration:line-through;"&gt;<span style="text-decoration:line-through;">Price Before: £14
+		</span>&lt;span&gt; Price After: £10&lt;/p&gt;</p>
+		</div>
+		
+	</div>	
+	</div>	
+	</div>	
+    </section>
+	
+	<section class="col s12 m12 orange ">
+			<div id = "html5PhrasingElements" >
+			<h2 id = "html5PhrasingElementsTitle">HTML5: Phrasing Elements</h2> 
+			
+			<p class ="html5PhrasingElementsTitleText" >In HTML, a phrase tag is used to indicate that a block of text has structural meaning. For example, in logical tags using the &lt;abbr&gt; tag indicates that the word or phrase contained within is an abbreviation or acronym(see <a href="#LogicalTags" id= "LogicalTagsHyperlink">Logical tags</a> section).</p>
+			<p class ="html5PhrasingElementsTitleText">It was Introduced to reflect the logical structure for "modern" web documents, it reduces the need for extra common id and class attributes.</p>
+		
+			</div>
+			</section>
+	
+	
+		<section class="col s12 m12">
+		<div id = "summary">
+            <h2 class = "summaryTitle">Summary: Inline tags</h2> 
+            <p class = "summaryText">In HTML, tags are either 'inline' or block-level elements. Inline tags (elements) become a part of the 'flow' of text in which they are inserted and have no virtual 'box' around them and don't have the carriage return either(space after you hit enter). You can have either Logical(focuses on semantic meaning) or Physical(focuses on visual meaning) inline tags. An example of a Physical tag is the &lt;b&gt; (bold) tag.
+			It is important to know the difference between them and when it is appropriate to use them or CSS. Try the tags out on various browsers and you'll see the difference to your page when you use &lt;b&gt; tags and &lt;strong&gt; tags.</p>
+         </div>
+		</section>
+		
+	<footer class="page-footer grey darken-4">
+			<div class="container grey darken-4">
+				<div class="row">
+				<div class="col l6 s12 grey darken-4">
+                <h5 class="white-text">CSC1026: Website Design and Construction</h5>
+                <p class="grey-text text-lighten-4">Samantha Ling <br/> Student ID: 160720604</p>
+				</div>
+				<div class="col l4 offset-l2 s12 grey darken-4">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-4" href="https://developer.mozilla.org/en-US/">Monzilla Developer Tools</a></li>
+                  <li><a class="grey-text text-lighten-4" href="http://materializecss.com/">Materialize</a></li>
+                  <li><a class="grey-text text-lighten-4" href="https://www.w3schools.com/">W3schools</a></li>
+          
+                </ul>
+				</div>
+				</div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4" href="#!">Newcastle University</a>
+            </div>
+          </div>
+        </footer>
+		  
+		  
+		  </div>
+		 </div>
+		 
+	</main>
+
+	
+</body>
+
+</html>
+			

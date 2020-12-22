@@ -1,0 +1,530 @@
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 87.1329
+Bottom location on y axis: 85.1329
+Left location on x axis: 85.1329
+Right location on x axis: 87.1329
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 87.3481
+Bottom location on y axis: 85.3481
+Left location on x axis: 85.3481
+Right location on x axis: 87.3481
+
+Pieces still left on the chessboard after collision: 29
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 70.3126
+Bottom location on y axis: 68.3126
+Left location on x axis: 61.1754
+Right location on x axis: 63.1754
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 62.268
+Bottom location on y axis: 60.268
+Left location on x axis: 60.268
+Right location on x axis: 62.268
+
+Pieces still left on the chessboard after collision: 28
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 39.0428
+Bottom location on y axis: 37.0428
+Left location on x axis: 36.7595
+Right location on x axis: 38.7595
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 38.787
+Bottom location on y axis: 36.787
+Left location on x axis: 36.787
+Right location on x axis: 38.787
+
+Pieces still left on the chessboard after collision: 27
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 37.2501
+Bottom location on y axis: 35.2501
+Left location on x axis: 35.2501
+Right location on x axis: 37.2501
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 39.0428
+Bottom location on y axis: 37.0428
+Left location on x axis: 36.7595
+Right location on x axis: 38.7595
+
+Pieces still left on the chessboard after collision: 26
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 83.3595
+Bottom location on y axis: 81.3595
+Left location on x axis: 81.3595
+Right location on x axis: 83.3595
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 81.7937
+Bottom location on y axis: 79.7937
+Left location on x axis: 79.7937
+Right location on x axis: 81.7937
+
+Pieces still left on the chessboard after collision: 25
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 78.7199
+Bottom location on y axis: 76.7199
+Left location on x axis: 76.7199
+Right location on x axis: 78.7199
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 77.4082
+Bottom location on y axis: 75.4082
+Left location on x axis: 75.4082
+Right location on x axis: 77.4082
+
+Pieces still left on the chessboard after collision: 24
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 54.3843
+Bottom location on y axis: 52.3843
+Left location on x axis: 50.4654
+Right location on x axis: 52.4654
+
+Has collided with (static) piece:
+
+Queen
+Top location on y axis: 55.2426
+Bottom location on y axis: 53.2426
+Left location on x axis: 53.2426
+Right location on x axis: 55.2426
+
+Pieces still left on the chessboard after collision: 23
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 15.5502
+Bottom location on y axis: 13.5502
+Left location on x axis: 14.6572
+Right location on x axis: 16.6572
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 17.6102
+Bottom location on y axis: 15.6102
+Left location on x axis: 15.6102
+Right location on x axis: 17.6102
+
+Pieces still left on the chessboard after collision: 22
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 23.6254
+Bottom location on y axis: 21.6254
+Left location on x axis: 26.5837
+Right location on x axis: 28.5837
+
+Has collided with (static) piece:
+
+Queen
+Top location on y axis: 29.5063
+Bottom location on y axis: 27.5063
+Left location on x axis: 27.5063
+Right location on x axis: 29.5063
+
+Pieces still left on the chessboard after collision: 21
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 6.48264
+Bottom location on y axis: 4.48263
+Left location on x axis: 7.49229
+Right location on x axis: 9.49229
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 5.60729
+Bottom location on y axis: 3.60729
+Left location on x axis: 3.60729
+Right location on x axis: 5.60729
+
+Pieces still left on the chessboard after collision: 20
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 90.7893
+Bottom location on y axis: 88.7893
+Left location on x axis: 88.7893
+Right location on x axis: 90.7893
+
+Has collided with (static) piece:
+
+Queen
+Top location on y axis: 89.4142
+Bottom location on y axis: 87.4142
+Left location on x axis: 87.4142
+Right location on x axis: 89.4142
+
+Pieces still left on the chessboard after collision: 19
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 14.6851
+Bottom location on y axis: 12.6851
+Left location on x axis: 7.49229
+Right location on x axis: 9.49229
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 15.5502
+Bottom location on y axis: 13.5502
+Left location on x axis: 14.6572
+Right location on x axis: 16.6572
+
+Pieces still left on the chessboard after collision: 18
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 87.8942
+Bottom location on y axis: 85.8942
+Left location on x axis: 85.8942
+Right location on x axis: 87.8942
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 87.1329
+Bottom location on y axis: 85.1329
+Left location on x axis: 85.1329
+Right location on x axis: 87.1329
+
+Pieces still left on the chessboard after collision: 17
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 29.5613
+Bottom location on y axis: 27.5613
+Left location on x axis: 34.4053
+Right location on x axis: 36.4053
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 37.2501
+Bottom location on y axis: 35.2501
+Left location on x axis: 35.2501
+Right location on x axis: 37.2501
+
+Pieces still left on the chessboard after collision: 16
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 55.2737
+Bottom location on y axis: 53.2737
+Left location on x axis: 53.2737
+Right location on x axis: 55.2737
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 54.3843
+Bottom location on y axis: 52.3843
+Left location on x axis: 50.4654
+Right location on x axis: 52.4654
+
+Pieces still left on the chessboard after collision: 15
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 59.5153
+Bottom location on y axis: 57.5153
+Left location on x axis: 57.5153
+Right location on x axis: 59.5153
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 60.9099
+Bottom location on y axis: 58.9099
+Left location on x axis: 58.9099
+Right location on x axis: 60.9099
+
+Pieces still left on the chessboard after collision: 14
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 63.7664
+Bottom location on y axis: 61.7664
+Left location on x axis: 70.7465
+Right location on x axis: 72.7465
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 73.7246
+Bottom location on y axis: 71.7246
+Left location on x axis: 71.7246
+Right location on x axis: 73.7246
+
+Pieces still left on the chessboard after collision: 13
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 22.6922
+Bottom location on y axis: 20.6922
+Left location on x axis: 15.4993
+Right location on x axis: 17.4993
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 23.6254
+Bottom location on y axis: 21.6254
+Left location on x axis: 26.5837
+Right location on x axis: 28.5837
+
+Pieces still left on the chessboard after collision: 12
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 73.5748
+Bottom location on y axis: 71.5748
+Left location on x axis: 71.5748
+Right location on x axis: 73.5748
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 63.7664
+Bottom location on y axis: 61.7664
+Left location on x axis: 70.7465
+Right location on x axis: 72.7465
+
+Pieces still left on the chessboard after collision: 11
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 28.5903
+Bottom location on y axis: 26.5903
+Left location on x axis: 21.3974
+Right location on x axis: 23.3974
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 29.5613
+Bottom location on y axis: 27.5613
+Left location on x axis: 34.4053
+Right location on x axis: 36.4053
+
+Pieces still left on the chessboard after collision: 10
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 70.3126
+Bottom location on y axis: 68.3126
+Left location on x axis: 70.6185
+Right location on x axis: 72.6185
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 73.5748
+Bottom location on y axis: 71.5748
+Left location on x axis: 71.5748
+Right location on x axis: 73.5748
+
+Pieces still left on the chessboard after collision: 9
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Rook
+Top location on y axis: 70.3126
+Bottom location on y axis: 68.3126
+Left location on x axis: 58.5098
+Right location on x axis: 60.5098
+
+Has collided with (static) piece:
+
+Bishop
+Top location on y axis: 59.5153
+Bottom location on y axis: 57.5153
+Left location on x axis: 57.5153
+Right location on x axis: 59.5153
+
+Pieces still left on the chessboard after collision: 8
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 98.6467
+Bottom location on y axis: 96.6467
+Left location on x axis: 96.6467
+Right location on x axis: 98.6467
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 100.263
+Bottom location on y axis: 98.2635
+Left location on x axis: 98.0536
+Right location on x axis: 100.054
+
+Pieces still left on the chessboard after collision: 7
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 98.5072
+Bottom location on y axis: 96.5072
+Left location on x axis: 96.5072
+Right location on x axis: 98.5072
+
+Has collided with (static) piece:
+
+Queen
+Top location on y axis: 99.7553
+Bottom location on y axis: 97.7553
+Left location on x axis: 97.8787
+Right location on x axis: 99.8787
+
+Pieces still left on the chessboard after collision: 6
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Bishop
+Top location on y axis: 87.1516
+Bottom location on y axis: 85.1516
+Left location on x axis: 85.1516
+Right location on x axis: 87.1516
+
+Has collided with (static) piece:
+
+Queen
+Top location on y axis: 85.8191
+Bottom location on y axis: 83.8191
+Left location on x axis: 83.8191
+Right location on x axis: 85.8191
+
+Pieces still left on the chessboard after collision: 5
+-------------------------------------------------------------------
+--------------------------- Collision -----------------------------
+
+Moved piece:
+
+Queen
+Top location on y axis: 61.4532
+Bottom location on y axis: 59.4535
+Left location on x axis: 22.7005
+Right location on x axis: 24.7005
+
+Has collided with (static) piece:
+
+Rook
+Top location on y axis: 62.4004
+Bottom location on y axis: 60.4004
+Left location on x axis: 61.0923
+Right location on x axis: 63.0923
+
+Pieces still left on the chessboard after collision: 4
+--------------------------- Total Scores -----------------------------
+
+Number of rook captures: 9
+Number of bishop captures: 10
+Number of queen captures: 7
+
+Chess game has ended with 4 number of pieces still left on the chessboard
+----------------------------------------------------------------------
+
+Number of chess pieces on the board after clearing (expecting 0): 0

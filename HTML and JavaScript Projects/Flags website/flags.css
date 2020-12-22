@@ -1,0 +1,213 @@
+/* for the following block,these styling rules are applied to the entire XHTML page*/
+body {
+    background-color: #bab4b4; /*sets background color of the entire block to hex color code #bab4b4*/
+	width:100%; /*Defines the width in percent of the block*/
+	
+}
+
+/* for this block,these styling rules are applied to any h1 tags in the XHTML markup*/
+h1 {
+	color: #8f8888; /*sets the text color of the header*/
+	margin-left:20px; /*budges the text along 20px from the left*/
+	font-family: "Lucida Sans Unicode",sans-serif; /*sets the text font to lucinda sans unicode in style sans-serif*/
+	font-weight: 400;/*sets the weight of the text to a certain amount/sets the text to how thick/thin the charecters should be*/
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/70-flags.png");/*adding a image in the header*/
+	background-repeat: no-repeat;/*makes sure that there is no repetition of the image*/
+	background-position: right; /*positions the image on the right in the header block*/
+	padding-bottom:10px;/*creates 10px length of space at the bottom of the header block*/
+	padding-top: 40px;/*creates 40px length of space at the top of the header block*/
+	
+} 
+
+/* for this block,these styling rules are applied to any h2,h3,h4,h5 tags in the XHTML markup*/
+h2,h3,h4,h5 {
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/12-dkgrey.png");
+	background-repeat: no-repeat;
+	background-position: 0 center; /*positions the image in the middle on the left side of the page*/
+	padding-left: 20px;/*creates 20px length of space on the left of the header block*/
+	color: #8f8888;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;/*sets the text font to lucinda sans unicode in style grande and sans-serif*/
+	font-weight: 400;
+	margin:0;
+	line-height:50px;/*Specify's the space between the lines in two paragraphs using a pixel value.*/
+
+	
+}
+
+/* for this block,these styling rules are applied to any paragraphs tags in section 5 and 6 in the XHTML markup*/
+#section5 p,#section6 p{
+	margin:10px;/*seperates each image 10px from each other/gives 10px length of space around each image*/
+	float:left; /*positions images on the left of each other*/
+	color:black; /*sets text color to black*/
+	font-weight: bold; /*sets the text to bold*/
+	font-variant: small-caps; /*In a small-caps font, all lowercase letters are converted to uppercase letters. 
+	                          However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text. 
+						      Reference url:https://www.w3schools.com/cssref/pr_font_font-variant.asp */
+	font-size:16px; /*sets the font size of the text to 16px*/
+	
+}
+
+#section5 img{
+	border:1px solid black;/*puts a black border of length 1px around each flag image in section 5*/
+}
+
+
+#section6 p:first-letter{
+	font-size: 18px; /*sets the font-size of the first charecter of each paragraph in section 6 to length 18px*/
+}
+
+
+/* for this block,these styling rules are applied to the span id section called image1 in the XHTML markup*/
+#image1 {
+	
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/420x370-box.png");
+	background-repeat: no-repeat;
+	float: right;
+	margin-left:30px;
+	padding-top:20px;
+	padding-left:20px;
+	width: 420px;
+    height: 370px;
+}
+
+#image2{
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/3-flags75.png");
+	background-repeat: no-repeat;
+	float:right;
+	margin:20px;
+	padding-left:80px;
+    width: 300px;/*Defines the width in pixels of the image displayed on the page*/
+    height: 180px;/*/*Defines the height in pixels of the image displayed on the page*/
+}
+
+
+#video{
+	
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/460x320-box.png");
+	background-repeat: no-repeat;
+	float: right;
+	margin-left:10px;
+	padding-top:20px;
+	width: 460px;
+    height: 320px;
+	text-align:center; /*aligns the text in the centre of the block/div*/
+	font-size:13px;
+	
+}
+
+.footer{
+	text-align:right;
+	font-family: Palatino, "Palatino Linotype", "Palatino LTSTD";
+	background: white;
+	padding:10px; /*creates space all around the footer block*/
+	font-size:14px;
+	
+}
+
+
+.title,#section1,#section2,#section3,#section4,#section5,#section6 {
+
+	font-family: Palatino, "Palatino Linotype";/*sets the text font to Palantino in style Palantino Linotype*/
+	line-height: 22px;
+	font-size:15px;
+	background: white;
+	padding:10px;
+	overflow:scroll; /* The overflow property specifies what happens if content overflows a elements/sections box. In this case it adds a scrollbar when the sections content is too big to fit in a specified area.*/
+}
+
+
+
+#background{
+	position: relative; /*the background and the content is positioned relative to its normal position.*/
+	margin: 0 auto; /*this positions the background and the content in the middle of the page*/
+	background: #5d2c2c;
+	max-width:960px; /*The max-width property is used to set the maximum width of the content. This prevents the value of the width property from becoming larger than max-width.*/
+	min-width:450px; /*same as max-width except its for minimum width of the content. This prevents the value of the width property from becoming smaller than min-width*/
+}
+
+
+#menu li{
+
+	padding-left:1%;
+	display:inline-block; /*displays the text next to each other/on the same line */
+	
+}
+
+#menu li a{
+	text-decoration: none; /*gets-rid of any text formatting like underline*/
+	color:#8f8888;
+	font-size:15px;
+
+}
+
+#menu ul{
+    padding-top: 5px;
+	margin:0 auto;
+	padding-bottom: 5px;
+	text-align:right;
+	font-family: Palatino, "Palatino Linotype", "Palatino LTSTD";
+	
+}
+
+#menu {
+
+	position:absolute;/*positions the menubar so that it is at a fixed position on the page*/
+	top: 0;/* Position the navbar/menubar at the top of the page */
+	background:#5d2c2c;
+	width: 100%;
+}
+
+hr{
+	border:none;
+    background-color:#4a2021; /*hides the horizontal rules by blending it in with the background*/
+    height: 0.5px;
+	width:10px;
+}
+
+/*dropdown menu*/
+/* Reference url: https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+
+/*this link is where the dropdown menu/submenu branches off from*/
+.dropdown-link {
+    background-color:#5d2c2c ;
+    color: white;
+    border: none;
+	font-family: Palatino, "Palatino Linotype", "Palatino LTSTD";
+
+}
+
+/*applies to anything that concerns the dropdown menu*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+/*applies to anything within the submenu part*/
+.submenu{
+    display: none; /*makes sure it does not display this section of the menu at first*/
+    position: absolute;
+    background-color: white; 
+    z-index: 1;/*brings dropdown contents to front*/
+}
+
+/* applies to links within the dropdown */
+.submenu a {
+	padding: 5px 5px;
+    display: block;/*displays links as a block elements*/
+}
+
+/* applies to anything with list tags within the dropdown when it is hovered over */
+.submenu li:hover {
+	background-color: #5d2c2c; /*changes the background color of each link when it is hovered over*/
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+
+
+
+
+
+

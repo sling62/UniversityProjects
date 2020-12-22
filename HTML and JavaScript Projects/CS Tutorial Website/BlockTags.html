@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--Block level tags page-->
+<head>
+	<meta charset="utf-8"/>
+	<title>NCL CSC1026 Block and Inline tags tutorial</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>  
+	<script type="text/javascript" src="CSC1026Tutorial.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CSC1026Tutorial.css"/>
+</head>
+
+<body>
+
+<ul id="blockLevelDropdown" class="dropdown-content">
+  <li><a href="#Headings">Headings</a></li>
+  <li><a href="#ParagraphsBreaksRules">Paragraphs</a></li>
+  <li><a href="#Lists">Lists</a></li>
+  <li><a href="#html5FlowElements">HTML5:Flow Elements</a></li>
+</ul>
+
+<div class="container">
+<div class="navbar-fixed">
+  <nav class = "z-depth-0 container">
+    <div class="orange col s12 nav-wrapper">
+	<img src="NCLlogo.png" class="brand-logo" width="160" height="60" alt="NclLogo">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	 
+	  
+      <ul class="right hide-on-med-and-down">
+	  
+	  <li class="bold"><a href="index.html" class="waves-effect waves-teal">Home</a></li>
+	  
+		<li><a class="dropdown-button" href="#!" data-activates="blockLevelDropdown">Block Tags<i class="material-icons right">arrow_drop_down</i></a></li>
+
+	  <li><a href="InlineTags.html" class="waves-effect waves-teal">Inline Tags</a></li>
+	 
+		<li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+
+      </ul>
+	  
+	  
+	  <ul class="side-nav" id="mobile-demo">
+       
+	   <li class="bold"><a href="index.html" class="waves-effect waves-teal">Home</a></li>
+	   
+		<li class="bold"><a href="BlockTags.html" class="waves-effect waves-teal">Block Tags</a></li>
+	  
+	   <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header waves-effect waves-teal">Sections<i class="mdi-navigation-arrow-drop-down"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#Headings">Headings</a></li>
+                <li><a href="#ParagraphsBreaksRules">Paragraphs</a></li>
+                <li><a href="#Lists">Lists</a></li>
+				<li><a href="#html5FlowElements">HTML5:Flow Elements</a></li>
+              </ul>
+			</div>
+			  </li>
+        </ul>
+      </li>
+		
+         <li class="bold"><a href="InlineTags.html" class="waves-effect waves-teal">Inline tags</a></li>
+         <li class="bold"><a href="Quiz.html" class="waves-effect waves-teal">Quiz</a></li>
+      </ul>
+    </div>
+	
+  </nav>
+  </div>
+</div>
+<main>
+        <div class="container">
+          <div class="row">
+		  
+		  
+		  <section class="col s12 m12 grey darken-4">
+			<div id = "BlockLevelTags">
+              <h2 id="BlockLevelTagsTitle">Block Level Tags</h2>
+              <p id = "blocktagTitletext">Block level tags provide basic content structure for a web page. This includes Headings, Paragraphs, Horizontal rules, List organisation etc.</p>
+            </div>
+			</section>
+			
+			
+			<section class="col s12 m12 orange 1 ">
+			<div id = "Headings">
+              <h2 id = "HeadingsTitle">Headings</h2> 
+			  <p class = "HeadingstagTitletext">Headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags for each section.&lt;h1&gt; defines the most important heading and is usually only used once on a page like for the title(however there are cases which it is used more than once, this is allowed by HTML5 ).&lt;h6&gt; defines the least important heading.</p><p class = "HeadingstagTitletext">Below shows the different heading level's, which is rendered as the font-size decreesing at each level however the tags should be used on a document for its semantic meaning like a title or sub-title rather than its appearance. It is not recomended to skip levels, so for example to go from a &lt;h1&gt; tag to a &lt;h3&gt; tag.</p>
+			
+              <h1 class = "HeadingExample">This is a h1 heading</h1>
+			   
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h1>This is a h1 heading</h1>"><b>Show HTML Code</b></a>
+			  </div>
+				
+			  
+			  <h2 class = "HeadingExample">This is a h2 sub-heading</h2>
+			  
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h2>This is a h2 sub-heading</h2>"><b>Show HTML Code</b></a>
+				</div>
+				
+			  <h3 class = "HeadingExample">This is a h3 sub-heading</h3>
+			  
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h3>This is a h3 sub-heading</h3>"><b>Show HTML Code</b></a>
+			  </div>
+			  
+			  <h4 class = "HeadingExample">This is a h4 sub-heading</h4>
+			  
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h4>This is a h4 sub-heading</h4>"><b>Show HTML Code</b></a>
+			  </div>
+			  
+			  <h5 class = "HeadingExample">This is a h5 sub-heading</h5>
+			  
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h5>This is a h5 sub-heading</h5>"><b>Show HTML Code</b></a>
+			  </div>
+				
+			 <h6 class = "HeadingExample">This is a h6 sub-heading</h6>
+			  
+			  <div class = "tooltip">
+			  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<h6>This is a h6 sub-heading</h6>"><b>Show HTML Code</b></a>
+				</div>
+				
+			</div>
+			</section>
+		
+			<section class="col s13 m13 grey darken-4 ">
+			<div id = "ParagraphsBreaksRules">
+              <h2 id = "ParagraphBreaksRulesTitle">Paragraphs, breaks and rules</h2> 
+			  <p class = "ParagraphBreaksRulesText"> Paragraph tags are used as a basic container for body text. Line breaks and horizontal rule tags are used to seperate text.</p> <p class = "ParagraphBreaksRulesText">The reason for using a line break over a paragraph is if you dont want to have a full paragraph break and just want to go onto the next line, a line break does not replace a paragraph tag for containing text. So if a br tag is used, it should be used within a paragraph tag and its semantic meaning for seperation not for appearance purposes. </p>
+			  
+			  <p class = "paragraphExample">For example this is a paragraph of which uses lorem ipsum: Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+			  <hr/>
+			  <p class = "paragraphExample"> The above line is a horizontal rule, good for seperating text </p>
+			   <p class = "LineBreakExample">This is another paragraph which comes after a non-forced line break(just by using another paragraph tag), Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			  <p class = "LineBreakExample"> This is a paragraph of which forces the use of a line break, just like <br/> this.</p>
+			  
+			  
+			    <ul class="collapsible" data-collapsible="accordion">
+				<li>
+				<div class="collapsible-header"><b>SHOW HTML CODE</b></div>
+				<div class="collapsible-body"><p>&lt;p&gt;For example this is a paragraph of which uses lorem ipsum: Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/p&gt;</p>
+				<p> &lt;hr/&gt; </p>
+			    <p>&lt;p&gt; The above line is a horizontal rule, good for seperating text &lt;/p&gt;</p>
+			    <p>&lt;p&gt;This is another paragraph which comes after a non-forced line break(just by using another paragraph tag), Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.&lt;/p&gt;</p>
+			    <p>&lt;p&gt; This is a paragraph of which forces the use of a line break, just like &lt;br/&gt;<br/> this.&lt;/p&gt;</p>
+				</div>
+				</li>
+				</ul>
+			 </div>
+			 </section>
+			 
+			 
+			  <section class="col s13 m13 orange">
+			  <div id = "Lists">
+              <h2 id = "ListsTitle">Lists</h2> 
+              <p class = "ListsTitleTagsText">HTML supports 3 types of list structure:</p>
+			  <ol>
+				<li class = "ListTextExample">Unordered(bullet points)</li>
+				<li class = "ListTextExample">Ordered(numbered points)</li>
+				<li class = "ListTextExample">Definition(descriptive terms)</li>
+				</ol>
+				<p class = "ListsTitleTagsText"> The focus of lists is the semantics/organisation not visual display(lists can be fine-tuned using css).Well structured lists form the basis of many dynamic menu and tab effects(with the aid of css and javascript).</p>
+              </div>
+			
+			
+			 <section class="col s4 orange darken-1">
+			
+				<h5 class = "ListTagTitle">Unordered List</h5>
+				<p>An unordered list is a bulleted list.
+				You can style a unordered list bullet points by using the &lt;type&gt; attribute for the &lt;ul&gt; tag. By default it is a disc. However you can also use square and circle as well. </p>
+				<ul id="ulbullet">
+				<li class = "ListTagExample">A bullet list starts with a ul tag </li>
+				<li class = "ListTagExample">Each item is surrounded by li tags</li>
+				<li class = "ListTagExample">The list ends with a ul tag </li>
+				</ul>
+				
+				<ul class="collapsible" data-collapsible="accordion">
+				<li>
+				<div class="collapsible-header"><b>SHOW HTML CODE</b></div>
+				<div class="collapsible-body">
+				<p>&lt;ul type="disc"&gt;</p>
+				<p class ="text3">&lt;li&gt;A bullet list starts with a ul tag&lt;/li&gt;</p>
+				<p class ="text3">&lt;li&gt;Each item is surrounded by li tags&lt;/li&gt;</p>
+				<p class ="text3">&lt;li&gt;The list ends with a ul tag &lt;/li&gt;</p>
+				<p>&lt;/ul&gt;</p>
+				</div>
+				</li>
+				</ul>
+				
+			</section>
+			
+				<div class="col s4 orange darken-1">
+			
+				<h5 class = "ListTagTitle">Ordered List</h5>
+				<p>This list is used to create an indexed list, such as a numbered or alphabetical list.</p>
+				
+				<ol>
+				<li class = "ListTagExample2">A bullet list starts with a ol tag </li>
+				<li class = "ListTagExample2">Each item is surrounded by li tags</li>
+				<li class = "ListTagExample2">The list ends with a ol tag </li>
+				</ol>
+				
+				<ul class="collapsible" data-collapsible="accordion">
+				<li>
+				<div class="collapsible-header"><b>SHOW HTML CODE</b></div>
+				<div class="collapsible-body">
+				<p>&lt;ol&gt;</p>
+				<p class ="text3">&lt;li&gt;A bullet list starts with a ol tag&lt;/li&gt;</p>
+				<p class ="text3">&lt;li&gt;Each item is surrounded by li tags&lt;/li&gt;</p>
+				<p class ="text3">&lt;li&gt;The list ends with a ol tag &lt;/li&gt;</p>
+				<p>&lt;/ol&gt;</p>
+				</div>
+				</li>
+				</ul>
+			</div>
+			
+			
+			   <section class="col s4 orange darken-1">
+			   <h5 class = "ListTagTitle"> Definition List</h5> 
+			   <p>This type of list is used to define and describe terms, kind of like a dictionary. For example a Word in a dictionary consists of a term, and a definition of that term. A browser will usually bold the term, and indent the definition.</p>
+				<dl>
+				<dt class = "ListTagExample"> List </dt>
+				<dd>A collection of related points</dd>
+				<dt class = "ListTagExample">Lost</dt>
+				<dd>In need of a map</dd>
+				</dl>
+				
+			
+				
+				<ul class="collapsible" data-collapsible="accordion">
+				<li>
+				<div class="collapsible-header"><span id = "text1"><b>SHOW HTML CODE</b></span></div>
+				<div class="collapsible-body">
+				<p> &lt;dl&gt;</p>
+				<p class ="text3">&lt;dt&gt; List &lt;/dt&gt;</p>
+				<p class ="text3">&lt;dd&gt;A collection of related points&lt;/dd&gt;</p>
+				<p class ="text3">&lt;dt&gt; Lost &lt;/dt&gt;</p>
+				<p class ="text3">&lt;dd&gt;In need of a map&lt;/dd&gt;</p>
+				<p> &lt;/dl&gt;</p>
+				</div>
+				</li>
+				</ul>
+				 
+			</section>
+			</section>
+			
+			<section class="col s12 m12 grey darken-4 ">
+			<div id = "html5FlowElements">
+			<h2 id = "html5FlowElementsTitle">HTML5: Flow Elements</h2> 
+			<p class = "html5FlowElementsTitleText">Flow elements was introduced in order to reflect a logical structure for "modern" web documents.</p>
+			<p class = "html5FlowElementsTitleText">Some flow elements at block-level include:</p>
+			
+			<div class="row">
+				<div class="col s12">
+				<ul class="tabs">
+				<li class="tab col s2"><a href="#article">&lt;article&gt;</a></li>
+				<li class="tab col s2"><a href="#section">&lt;section&gt;</a></li>
+				<li class="tab col s2"><a href="#nav">&lt;nav&gt; </a></li>
+				<li class="tab col s2"><a href="#aside">&lt;aside&gt;</a></li>
+				<li class="tab col s2"><a href="#header">&lt;header&gt;</a></li>
+				<li class="tab col s2"><a href="#footer">&lt;footer&gt;</a></li>
+				</ul>
+				</div>
+			<div id="article" class="col s12"><h4 class ="ModelText">&lt;article&gt;</h4> <p class = "FlowElementDescription">This tag is a container(normally situated in a &lt;section&gt; tag) in a document, page, application, or site.It is usually accompanied with a footer and header like with any article. Examples of where using a article tag is appropriate include: a forum post, a magazine or newspaper article, or a blog entry.</p></div>
+			<div id="section" class="col s12"><h4 class ="ModelText">&lt;section&gt;</h4><p class = "FlowElementDescription">This tag represents an independent section of functionality contained within an HTML document. It is usually accompanied with a heading. Be careful not to confuse the &lt;section&gt; tag as a general container; if you want a general container which is contained within other container's then a &lt;div&gt; should be used, for instance if you are sectioning a part of a document for styling purposes, use a div instead. A good way to think about is that a section should be independent and the contents can be seperate from everything else in a document.</p></div>
+			<div id="nav" class="col s12"><h4 class ="ModelText">&lt;nav&gt;</h4><p class = "FlowElementDescription">This tag is as the name sugguests, the navigation bar section of the page.Inside it provides links to other pages or to other parts within the page. Not all links of a document must be in a &lt;nav&gt; tag, which is intended only for major block of navigation links; so for instance the &lt;footer&gt; tag usually has a block of links that does not need to be in a &lt;nav&gt; tag.</p></div>
+			<div id="aside" class="col s12"><h4 class ="ModelText">&lt;aside&gt;</h4><p class = "FlowElementDescription">This tag represents a section of a document that contains content which accompanies the main content of the document, like a sidebar. The &lt;aside&gt; tag should not be used for parenthesized text(text within bracket) because it is considered as part of the main flow.</p></div>
+			<div id="header" class="col s12"><h4 class ="ModelText">&lt;header&gt;</h4><p class = "FlowElementDescription">This tag is normally used for introductory content or content of which helps navigate the page. This could include heading tags, a logo, a search form etc. The &lt;header&gt;,&lt;footer&gt; and &lt;article&gt; tag is not sectioning content therefore is usually contained within the &lt;section&gt; tag as show below.</p></div>
+			<div id="footer" class="col s12"><h4 class ="ModelText">&lt;footer&gt;</h4><p class = "FlowElementDescription">This tag is as the name sugguests a container for content usually at the bottom of a section tag. A footer normally contains information about the author of the section or page, copyright data or links to related sites.The author content is usually put in an &lt;address&gt; tag which is placed in the &lt;footer&gt; tag.</p></div>
+			</div>
+			
+			<div id = "flowElementsLayoutimgBorder">
+			<div id = "flowElementsLayoutimg">
+			<img src="html5structure.png" id = "flowElementsLayout1img" width="500" height="450" alt="HTML5 document structure" title="HTML5 document structure">
+			</div>
+			</div>
+			</div>
+			</section>
+			
+			<section class="col s12 m12">
+			<div id = "summary">
+            <h2 class = "summaryTitle">Summary: Block Level Tags</h2> 
+            <p class = "summaryText">In HTML, tags are either 'inline' or block-level elements. Block-level elements exist in their own virtual 'box' and are always followed by a carriage return (like hitting the 'enter' key after typing in some text). 
+			An example of a block tag is a &lt;p&gt; tag (paragraph tag). Testing out these on a HTML document, you will see what happens to your page when you use multiple &lt;p&gt; tags and highlight the background of these tags(using CSS).</p>
+			</div>
+			</section>
+			
+		  
+			<footer class="page-footer grey darken-4">
+			<div class="container grey darken-4">
+				<div class="row">
+				<div class="col l6 s12 grey darken-4">
+                <h5 class="white-text">CSC1026: Website Design and Construction</h5>
+                <p class="grey-text text-lighten-4">Samantha Ling <br/> Student ID: 160720604</p>
+				</div>
+				<div class="col l4 offset-l2 s12 grey darken-4">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-4" href="https://developer.mozilla.org/en-US/">Monzilla Developer Tools</a></li>
+                  <li><a class="grey-text text-lighten-4" href="http://materializecss.com/">Materialize</a></li>
+                  <li><a class="grey-text text-lighten-4" href="https://www.w3schools.com/">W3schools</a></li>
+                 
+                </ul>
+				</div>
+				</div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4" href="#!">Newcastle University</a>
+            </div>
+          </div>
+        </footer>
+		  
+		  
+		  </div>
+		 </div>
+		 
+	</main>
+
+	
+</body>
+
+</html>
